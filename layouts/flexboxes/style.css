@@ -1,0 +1,31 @@
+.rouge{
+    background-color:red;
+}
+
+.vert{
+    background-color:green;
+}
+
+.rose{
+    background-color:deeppink;
+}
+
+.jaune{
+    background-color:yellow;
+
+
+}
+
+.bleu{
+    background-color:darkblue;
+}
+
+.teal{
+    background-color:teal;
+}
+
+.flexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

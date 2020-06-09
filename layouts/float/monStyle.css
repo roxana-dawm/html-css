@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Piedra&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    font-family: piedra;
+    background-color: darkgray;
+    padding: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: lavender;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    background-color: lavenderblush;
+    padding: 25px;
+
+
+}
+
+nav ul {
+    padding: 0;
+    list-style-list: none;
+}
+
+article {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    text-align: justify;
+
+
+}
+
+article h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+footer {
+    background: darkgray;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-align: center;
+
+}
+
+@media (max-width: 500px) {
+    nav, article {
+        width: 100%;
+        height:auto;
+    }
+
+}

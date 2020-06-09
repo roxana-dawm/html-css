@@ -1,0 +1,43 @@
+body{
+    font-family: Arial,Serif;
+
+}
+
+table {
+    border-collapse:collapse;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+}
+table,th,td{
+    border:1px red solid;
+}
+
+th{
+    height:50px;
+    text-transform: uppercase;
+    background-color:coral;
+    color: red;
+    font-size:20px;
+}
+
+td{
+    height:30px;
+    padding-left:25px;
+}
+
+tr:hover{
+    background-color:coral;
+}
+
+tr:nth-child(even){
+    background-color:bisque;
+}
+
+div{
+    background-color:lightcyan;
+    width:60%;
+
+
+}
