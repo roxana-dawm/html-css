@@ -1,9 +1,55 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family:Arial;
 }
 
+header {
+    background-color:darkgray;
+    padding: 30px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
 
+}
+
+nav{
+    background-color:teal;
+    display:inline-block;
+    font-size:30px;
+    display:flex;
+    text-align: left;
+    float: left;}
+
+p{
+;
+    text-align:left;
+}
 
 h2{
-    background-color:gray;
+    background-color: teal;
+    color: white;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: left;
+    padding:20px;
+    position: relative;
+}
+
+h3{
+    background-color: darkgray;
+    color: white;
+    padding:20px;
+    text-transform: capitalize;
+    text-align: right;
+    display:block;
+    float: bottom;
+    line-height:normal;
 }
